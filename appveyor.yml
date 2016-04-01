@@ -40,7 +40,7 @@ install:
   - cmd: npm install -g node-gyp
   - cmd: npm install -g node-pre-gyp
   - npm install --msvs_version=2013
-  - node-pre-gyp install --fallback-to-build
+  - node-pre-gyp build
 
 test_script:
   - node --version
