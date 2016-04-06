@@ -34,7 +34,8 @@
   },
   "binary": {
         "module_name": "node_printer",
-        "module_path": "./lib/binding/"
+        "module_path": "./lib/binding/",
+        "host": ""
   },
   "licenses": [
     {
