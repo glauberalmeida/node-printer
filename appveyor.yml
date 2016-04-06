@@ -53,11 +53,4 @@ build: off
 branches:
   only:
     - master
-    
-artifacts: 
-  - path: build\*
-    name: pacote
-    
-deploy: 
-  - provider: Github 
-    artifact: pacote
+  
